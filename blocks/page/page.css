@@ -1,3 +1,21 @@
+@font-face {
+	font-family: "Inter";
+	src: url(../../fonts/Inter-Black.ttf);
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: "Inter";
+	src: url(../../fonts/Inter-Regular.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Inter";
+	src: url(../../fonts/Inter-SemiBold.ttf);
+	font-weight: 600;
+}
+
 .page {
 	background-color: #2A2C2F;
 	font-family: Inter, sans-serif;
@@ -5,4 +23,5 @@
 	color: white;
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
