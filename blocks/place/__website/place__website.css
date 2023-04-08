@@ -1,0 +1,17 @@
+.place__website {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+@media (min-width: 768px) {
+	.place__website {
+		align-self: end;
+	}
+}
+
+@media (min-width: 1024px) {
+	.place__website {
+		align-self: end;
+	}
+}

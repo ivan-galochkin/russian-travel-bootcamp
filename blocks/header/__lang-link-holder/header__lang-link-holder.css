@@ -1,0 +1,6 @@
+.header__lang-link-holder {
+	display: flex;
+	gap: 18px;
+	align-items: center;
+	margin-top: 6px;
+}

@@ -1,0 +1,13 @@
+.place__image {
+	width: 100vw;
+	aspect-ratio: 1;
+	align-self: center;
+	margin: 0;
+}
+
+@media (min-width: 768px) {
+	.place__image {
+		width: 100%;
+		align-self: start;
+	}
+}
