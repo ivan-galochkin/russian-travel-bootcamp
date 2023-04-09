@@ -7,11 +7,12 @@
 	align-self: center;
 	box-sizing: border-box;
 	background-clip: content-box;
+	max-width: 1280px;
 }
 
 @media (min-width: 1280px) {
 	.cover {
-		max-width: 100vw;
+		max-width: 1280px;
 		width: 100vw;
 		padding: 0 48px;
 	}
