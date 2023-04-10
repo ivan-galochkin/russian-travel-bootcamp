@@ -39,4 +39,3 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../vendor/normalize.css);
-* { outline: 1px solid yellow; }
