@@ -1,14 +1,14 @@
 .place__image {
-	width: 100vw;
+	width: calc(100% + 32px);
 	aspect-ratio: 1;
 	align-self: center;
-	margin: 0;
-	box-sizing: border-box;
+	box-sizing: content-box;
 }
 
 @media (min-width: 768px) {
 	.place__image {
 		width: 100%;
 		align-self: start;
+		margin: 0;
 	}
 }

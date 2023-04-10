@@ -4,16 +4,26 @@
 	align-items: center;
 	gap: 50px;
 	box-sizing: border-box;
+	padding: 0 16px;
 }
 
 @media (min-width: 768px) {
 	.places {
 		gap: 73px;
+		padding: 0 24px;
 	}
 }
 
 @media (min-width: 1024px) {
 	.places {
 		gap: 80px;
+		padding: 0 48px;
 	}
 }
+@media (min-width: 1280px) {
+	.places {
+		gap: 80px;
+		padding: 0 148px;
+	}
+}
+

@@ -1,5 +1,5 @@
 .cover {
-	width: 100vw;
+	width: 100%;
 	aspect-ratio: 1.6;
 	background-image: url("../../images/cover-trains.jpg");
 	background-size: contain;
@@ -7,12 +7,11 @@
 	align-self: center;
 	box-sizing: border-box;
 	background-clip: content-box;
-	max-width: 1280px;
+	max-width: 100%;
 }
 
 @media (min-width: 1280px) {
-	.cover {
-		max-width: 1280px;
-		padding: 0 48px;
+	.lead {
+		padding: 0 48px 0 48px;
 	}
 }
