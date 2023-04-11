@@ -10,8 +10,3 @@
 	}
 }
 
-@media (min-width: 1024px) {
-	.place__website {
-		align-self: end;
-	}
-}

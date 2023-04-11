@@ -1,8 +1,7 @@
 .cover {
 	width: 100%;
-	aspect-ratio: 1.6;
 	background-image: url("../../images/cover-trains.jpg");
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 	align-self: center;
 	box-sizing: border-box;
@@ -11,7 +10,7 @@
 }
 
 @media (min-width: 1280px) {
-	.lead {
+	.cover {
 		padding: 0 48px 0 48px;
 	}
 }

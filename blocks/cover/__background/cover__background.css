@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: 100%;
+	aspect-ratio: 1.6;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -10,7 +10,6 @@
 	background-color: rgba(42, 44, 47, .3);
 	color: white;
 	justify-content: center;
-
 }
 
 .cover__background:hover {

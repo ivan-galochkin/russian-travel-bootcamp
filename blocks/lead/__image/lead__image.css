@@ -1,8 +1,5 @@
 .lead__image {
-	background-image: url(../../../images/lead-polka.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	overflow: visible;
+	object-fit: cover;
 	width: calc(100% + 32px);
 	align-self: center;
 	aspect-ratio: 8/5;
@@ -20,7 +17,6 @@
 @media (min-width: 1024px) {
 	.lead__image {
 		width: 100%;
-		margin: 56px 0 0 0;
 	}
 }
 

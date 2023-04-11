@@ -1,6 +1,13 @@
 .header__lang-link-holder {
 	display: flex;
 	gap: 18px;
-	align-items: center;
-	margin-top: 6px;
+	align-items: start;
+	height: min-content;
+	margin-top: 14px;
+}
+
+@media (min-height: 768px) {
+	.header__lang-link-holder {
+		margin-top: 28px;
+	}
 }

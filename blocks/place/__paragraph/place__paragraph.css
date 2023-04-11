@@ -6,12 +6,6 @@
 	line-height: 163%;
 }
 
-@media (min-width: 768px) {
-	.place__paragraph {
-
-	}
-}
-
 @media (min-width: 1024px) {
 	.place__paragraph {
 		font-size: 18px;
